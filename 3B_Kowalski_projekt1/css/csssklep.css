@@ -1,0 +1,1308 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+@media (max-width: 600px){
+  body{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: dimgray;
+  }
+  header{
+      width: 600px;
+      height: 80px;
+      background-color: black;
+  }
+  header>a{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+  }
+  
+  .masno1{
+    width: 100%;
+    background-image: url(../images/tlo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .s1{
+      display: flex;
+      margin-top: 250px;
+      margin-bottom: 250px;
+      width: 100%;
+      height: 150px;
+      justify-content: center;
+      align-items: center;
+  }
+  .s1>a{
+    display: flex;
+        margin: 15px;
+        font-size: 20px;
+        background-color: rgba(0,0,0,60%);
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 150px;
+        text-align: center;
+        padding: 30px;
+  }
+  .paseksklep{
+      display: flex;
+      width: 600px;
+      height: 75px;
+      background-color: black;
+      justify-content: center;
+      align-items: center;
+  }
+  .paseksklep>a{
+      margin: 20px;
+      font-size: 20px;
+      color: white;
+      border: 1px solid white;
+      border-radius: 1vw;
+      width: 100px;
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .sklepbody{
+      width: 600px;
+      height: 3360px;
+      background-color: black;
+      display: grid;
+      grid-template-areas:
+          "bs1"
+          "bs2"
+          "bs3" 
+          "bs4"
+          "bs5"
+          "bs6"
+          "bs7"
+          "bs8"
+          "bs9";
+      justify-content: space-around;
+  }
+  
+  .sklepbody>div{
+      width: 300px;
+      height: 300px;
+      border: 1px solid white;
+      border-radius: 1.5vw;
+      margin: 25px;
+  }
+  img{
+    border-radius: 1vw;
+  }
+  
+  /* 1 hover */
+  .bs1{
+      grid-area: bs1 ;
+      position: relative;
+  }
+  
+  .img1{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek1 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs1:hover .img1 {
+      opacity: 0.3;
+    }
+     
+    .bs1:hover .srodek1 {
+      opacity: 1;
+    }
+    .text1 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 2 hover */
+  .bs2{
+      grid-area: bs2 ;
+      position: relative;
+  }
+  
+  .img2{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek2 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs2:hover .img2 {
+      opacity: 0.3;
+    }
+     
+    .bs2:hover .srodek2 {
+      opacity: 1;
+    }
+    .text2 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  
+  
+  /* 3 hover */
+  .bs3{
+      grid-area: bs3 ;
+      position: relative;
+  }
+  
+  .img3{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek3 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs3:hover .img3 {
+      opacity: 0.3;
+    }
+     
+    .bs3:hover .srodek3 {
+      opacity: 1;
+    }
+    .text3 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 4 hover */
+  .bs4{
+      grid-area: bs4 ;
+      position: relative;
+  }
+  
+  .img4{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek4 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs4:hover .img4 {
+      opacity: 0.3;
+    }
+     
+    .bs4:hover .srodek4 {
+      opacity: 1;
+    }
+    .text4 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 5 hover */
+  .bs5{
+      grid-area: bs5 ;
+      position: relative;
+  }
+  
+  .img5{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek5 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs5:hover .img5 {
+      opacity: 0.3;
+    }
+     
+    .bs5:hover .srodek5 {
+      opacity: 1;
+    }
+    .text5 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 6 hover */
+  .bs6{
+      grid-area: bs6 ;
+      position: relative;
+  }
+  
+  .img6{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek6 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs6:hover .img6 {
+      opacity: 0.3;
+    }
+     
+    .bs6:hover .srodek6 {
+      opacity: 1;
+    }
+    .text6 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 7 hover */
+  .bs7{
+      grid-area: bs7 ;
+      position: relative;
+  }
+  
+  .img7{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek7 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs7:hover .img7{
+      opacity: 0.3;
+    }
+     
+    .bs7:hover .srodek7{
+      opacity: 1;
+    }
+    .text7 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 8 hover */
+  .bs8{
+      grid-area: bs8 ;
+      position: relative;
+  }
+  
+  .img8{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek8 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs8:hover .img8 {
+      opacity: 0.3;
+    }
+     
+    .bs8:hover .srodek8 {
+      opacity: 1;
+    }
+    .text8 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 9 hover */
+  .bs9{
+      grid-area: bs9 ;
+      position: relative;
+  }
+  
+  .img9{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek9 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs9:hover .img9 {
+      opacity: 0.3;
+    }
+     
+    .bs9:hover .srodek9 {
+      opacity: 1;
+    }
+    .text9 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  }
+  
+
+@media (min-width: 600px){
+  body{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: dimgray;
+  }
+  header{
+      width: 100%;
+      height: 80px;
+      background-color: black;
+  }
+  header>a{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+  }
+  
+  .masno1{
+    width: 100%;
+    background-image: url(../images/tlo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .s1{
+      display: flex;
+      margin-top: 250px;
+      margin-bottom: 250px;
+      width: 100%;
+      height: 150px;
+      background-color: rgba(0,0,0,60%);
+      justify-content: center;
+      align-items: center;
+  }
+  .s1>a{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1.5vw;
+    width: 200px;
+    text-align: center;
+    padding: 30px;
+  }
+  .paseksklep{
+      display: flex;
+      width: 100%;
+      height: 75px;
+      background-color: black;
+      justify-content: center;
+      align-items: center;
+  }
+  .paseksklep>a{
+      margin: 20px;
+      font-size: 20px;
+      color: white;
+      border: 1px solid white;
+      border-radius: 1vw;
+      width: 15%;
+      text-align: center;
+      padding: 10px;
+      width: 100px;
+  }
+  
+  .sklepbody{
+      width: 100%;
+      height: 1760px;
+      background-color: black;
+      display: grid;
+      grid-template-areas:
+          "bs1 bs2" 
+          "bs3 bs4"
+          "bs5 bs6"
+          "bs7 bs8"
+          "bs9 bs9";
+      justify-content: space-around;
+  }
+  
+  .sklepbody>div{
+      width: 300px;
+      height: 300px;
+      border: 1px solid white;
+      border-radius: 1.5vw;
+      margin: 25px;
+  }
+  img{
+    border-radius: 1vw;
+  }
+  
+  /* 1 hover */
+  .bs1{
+      grid-area: bs1 ;
+      position: relative;
+  }
+  
+  .img1{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek1 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs1:hover .img1 {
+      opacity: 0.3;
+    }
+     
+    .bs1:hover .srodek1 {
+      opacity: 1;
+    }
+    .text1 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 2 hover */
+  .bs2{
+      grid-area: bs2 ;
+      position: relative;
+  }
+  
+  .img2{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek2 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs2:hover .img2 {
+      opacity: 0.3;
+    }
+     
+    .bs2:hover .srodek2 {
+      opacity: 1;
+    }
+    .text2 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  
+  
+  /* 3 hover */
+  .bs3{
+      grid-area: bs3 ;
+      position: relative;
+  }
+  
+  .img3{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek3 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs3:hover .img3 {
+      opacity: 0.3;
+    }
+     
+    .bs3:hover .srodek3 {
+      opacity: 1;
+    }
+    .text3 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 4 hover */
+  .bs4{
+      grid-area: bs4 ;
+      position: relative;
+  }
+  
+  .img4{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek4 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs4:hover .img4 {
+      opacity: 0.3;
+    }
+     
+    .bs4:hover .srodek4 {
+      opacity: 1;
+    }
+    .text4 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 5 hover */
+  .bs5{
+      grid-area: bs5 ;
+      position: relative;
+  }
+  
+  .img5{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek5 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs5:hover .img5 {
+      opacity: 0.3;
+    }
+     
+    .bs5:hover .srodek5 {
+      opacity: 1;
+    }
+    .text5 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 6 hover */
+  .bs6{
+      grid-area: bs6 ;
+      position: relative;
+  }
+  
+  .img6{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek6 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs6:hover .img6 {
+      opacity: 0.3;
+    }
+     
+    .bs6:hover .srodek6 {
+      opacity: 1;
+    }
+    .text6 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 7 hover */
+  .bs7{
+      grid-area: bs7 ;
+      position: relative;
+  }
+  
+  .img7{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek7 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs7:hover .img7{
+      opacity: 0.3;
+    }
+     
+    .bs7:hover .srodek7{
+      opacity: 1;
+    }
+    .text7 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 8 hover */
+  .bs8{
+      grid-area: bs8 ;
+      position: relative;
+  }
+  
+  .img8{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek8 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs8:hover .img8 {
+      opacity: 0.3;
+    }
+     
+    .bs8:hover .srodek8 {
+      opacity: 1;
+    }
+    .text8 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+  /* 9 hover */
+  .bs9{
+      grid-area: bs9 ;
+      position: relative;
+  }
+  
+  .img9{
+      opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .srodek9 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .bs9:hover .img9 {
+      opacity: 0.3;
+    }
+     
+    .bs9:hover .srodek9 {
+      opacity: 1;
+    }
+    .text9 {
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  }
+
+@media (min-width: 1024px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: dimgray;
+    }
+    header{
+        width: 100%;
+        height: 80px;
+        background-color: black;
+    }
+    header>a{
+      font-size: 30px;
+      color: white;
+      padding: 20px;
+    }
+    
+    .masno1{
+      width: 100%;
+      background-image: url(../images/tlo.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .s1{
+        display: flex;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        width: 100%;
+        height: 150px;
+        background-color: rgba(0,0,0,60%);
+        justify-content: center;
+        align-items: center;
+    }
+    .s1>a{
+      margin: 25px;
+      font-size: 25px;
+      color: white;
+      border: 1px solid white;
+      border-radius: 1.5vw;
+      width: 250px;
+      text-align: center;
+      padding: 30px;
+    }
+    .paseksklep{
+        display: flex;
+        width: 100%;
+        height: 75px;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+    }
+    .paseksklep>a{
+        margin: 20px;
+        font-size: 20px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 1vw;
+        width: 15%;
+        text-align: center;
+        padding: 10px;
+        width: 100px;
+    }
+    
+    .sklepbody{
+        width: 100%;
+        height: 1060px;
+        background-color: black;
+        display: grid;
+        grid-template-areas:
+            "bs1 bs2 bs3" 
+            "bs4 bs5 bs6"
+            "bs7 bs8 bs9";
+        justify-content: space-around;
+    }
+    
+    .sklepbody>div{
+        width: 300px;
+        height: 300px;
+        border: 1px solid white;
+        border-radius: 1.5vw;
+        margin: 25px;
+    }
+    img{
+      border-radius: 1vw;
+    }
+    
+    /* 1 hover */
+    .bs1{
+        grid-area: bs1 ;
+        position: relative;
+    }
+    
+    .img1{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek1 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs1:hover .img1 {
+        opacity: 0.3;
+      }
+       
+      .bs1:hover .srodek1 {
+        opacity: 1;
+      }
+      .text1 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    /* 2 hover */
+    .bs2{
+        grid-area: bs2 ;
+        position: relative;
+    }
+    
+    .img2{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek2 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs2:hover .img2 {
+        opacity: 0.3;
+      }
+       
+      .bs2:hover .srodek2 {
+        opacity: 1;
+      }
+      .text2 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    
+    
+    /* 3 hover */
+    .bs3{
+        grid-area: bs3 ;
+        position: relative;
+    }
+    
+    .img3{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek3 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs3:hover .img3 {
+        opacity: 0.3;
+      }
+       
+      .bs3:hover .srodek3 {
+        opacity: 1;
+      }
+      .text3 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    /* 4 hover */
+    .bs4{
+        grid-area: bs4 ;
+        position: relative;
+    }
+    
+    .img4{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek4 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs4:hover .img4 {
+        opacity: 0.3;
+      }
+       
+      .bs4:hover .srodek4 {
+        opacity: 1;
+      }
+      .text4 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    /* 5 hover */
+    .bs5{
+        grid-area: bs5 ;
+        position: relative;
+    }
+    
+    .img5{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek5 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs5:hover .img5 {
+        opacity: 0.3;
+      }
+       
+      .bs5:hover .srodek5 {
+        opacity: 1;
+      }
+      .text5 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    /* 6 hover */
+    .bs6{
+        grid-area: bs6 ;
+        position: relative;
+    }
+    
+    .img6{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek6 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs6:hover .img6 {
+        opacity: 0.3;
+      }
+       
+      .bs6:hover .srodek6 {
+        opacity: 1;
+      }
+      .text6 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    /* 7 hover */
+    .bs7{
+        grid-area: bs7 ;
+        position: relative;
+    }
+    
+    .img7{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek7 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs7:hover .img7{
+        opacity: 0.3;
+      }
+       
+      .bs7:hover .srodek7{
+        opacity: 1;
+      }
+      .text7 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    /* 8 hover */
+    .bs8{
+        grid-area: bs8 ;
+        position: relative;
+    }
+    
+    .img8{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek8 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs8:hover .img8 {
+        opacity: 0.3;
+      }
+       
+      .bs8:hover .srodek8 {
+        opacity: 1;
+      }
+      .text8 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+    /* 9 hover */
+    .bs9{
+        grid-area: bs9 ;
+        position: relative;
+    }
+    
+    .img9{
+        opacity: 1;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .srodek9 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .bs9:hover .img9 {
+        opacity: 0.3;
+      }
+       
+      .bs9:hover .srodek9 {
+        opacity: 1;
+      }
+      .text9 {
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    }
+    
