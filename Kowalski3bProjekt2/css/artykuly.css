@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1000px;
+  background-color: #9bff9b;
+}
+
+.nav {
+  position: fixed;
+  width: 14%;
+  height: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.nav__lk {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid white;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+}
+
+.main {
+  margin-left: 18%;
+  width: 30%;
+}
+
+.main__header {
+  padding: 10px;
+}
+
+.main__article {
+  border: 1px solid black;
+  border-radius: 1vw;
+  padding: 10px;
+  width: 90%;
+  height: 30%;
+  background-color: rgba(255, 255, 255, 0.315);
+}
+
+.aside {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+.aside__header {
+  height: 10%;
+}
+
+.aside__text {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 2vw;
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0.315);
+}
+
+.footer {
+  position: absolute;
+  bottom: -35%;
+  left: 50%;
+}
+/*# sourceMappingURL=artykuly.css.map */
